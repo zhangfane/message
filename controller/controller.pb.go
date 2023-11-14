@@ -6,9 +6,9 @@ package controller
 import (
 	context "context"
 	fmt "fmt"
-	common "github.com/deepflowio/deepflow/message/common"
 	github_com_golang_protobuf_proto "github.com/golang/protobuf/proto"
 	proto "github.com/golang/protobuf/proto"
+	common "github.com/zhangfane/message/common"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
